@@ -2,6 +2,7 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import DaisyNav from './components/DaisyNav/DaisyNav'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
   
@@ -62,6 +63,9 @@ function App() {
     <div className="stat-desc text-secondary">31 tasks remaining</div>
   </div>
 </div>
+
+
+<PriceOptions> </PriceOptions>
       
      
     </>
